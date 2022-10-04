@@ -66,8 +66,8 @@ h3{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
-    /* position: absolute;
-    right: 30%; */
+    position: absolute;
+    right: 30%;
 }
 
 
@@ -75,7 +75,10 @@ h3{
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
+
 
 .feature{
     text-align: center;
@@ -135,4 +138,41 @@ h3{
 
 .pricing-col{
     padding: 3% 2%;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta > h3{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.socials{
+    padding: 1%;
+}
+
+
+@media (max-width:1028px) {
+    
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
 }
