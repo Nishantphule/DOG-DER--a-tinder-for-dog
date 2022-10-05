@@ -26,6 +26,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/* sections */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
 /* Navigation Bar */
 
 .navbar{
@@ -57,14 +69,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* title section */
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid{
-    padding: 3% 15% 7%
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Title Image */
@@ -80,7 +87,6 @@ h1, h2, h3, h4, h5, h6{
 /* Feature */
 
 #features{
-    background-color: #fff;
     position: relative;
 }
 
@@ -110,7 +116,6 @@ h1, h2, h3, h4, h5, h6{
 
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text{
@@ -125,7 +130,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #press{
-    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -157,14 +161,6 @@ h1, h2, h3, h4, h5, h6{
 
 .card-title{
     font-size: 1.5rem;
-}
-
-
-/* cta */
-
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 
