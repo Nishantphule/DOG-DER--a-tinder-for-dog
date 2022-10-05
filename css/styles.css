@@ -130,6 +130,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #press{
+    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -172,12 +173,11 @@ h1, h2, h3, h4, h5, h6{
 
 
 @media (max-width:1028px) {
-    
     .title-img{
         position: static;
         transform: rotate(0);
     }
-    #title{
+    .title{
         text-align: center;
     }
 }
